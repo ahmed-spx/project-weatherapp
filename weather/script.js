@@ -1,4 +1,5 @@
 function getWeather(){
+  require('dotenv').config();
   const apiKey = process.env.API_KEY;
   const city = document.getElementById('city').value;
 
